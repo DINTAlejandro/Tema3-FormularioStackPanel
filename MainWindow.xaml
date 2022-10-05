@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema3_FormularioStackPanel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Formularios StackPanel" Height="450" Width="800" Icon="Assets/128.ico">
     <StackPanel>
         <StackPanel Margin="5" >
             <StackPanel.Background>
@@ -40,7 +40,7 @@
                 </LinearGradientBrush>
             </StackPanel.Background>
             <TextBlock Margin="5,8" FontSize="16" FontWeight="Bold" >Correo electrónico</TextBlock>
-            <TextBox Margin="15" BorderBrush="Black"></TextBox>
+            <TextBox Margin="15" BorderBrush="Black" MaxWidth="800" MinWidth="600" HorizontalAlignment="Left"></TextBox>
         </StackPanel>
         <StackPanel Orientation ="Horizontal" HorizontalAlignment="Right">
             <Button Width="100" Margin="10">Aceptar</Button>
